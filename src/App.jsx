@@ -565,10 +565,10 @@ const App = () => {
           </div>
         </>
       ) : (
-        <div className="bg-gray-800 p-8 rounded-lg shadow-lg max-w-2xl w-full text-center">
-          <h2 className="text-4xl font-bold mb-4 text-blue-400">{currentRecipe.titulo}</h2>
-          <p className="text-lg text-gray-300">Paso {currentStep + 1} de {currentRecipe.pasos.length}</p>
-          <p className="text-2xl mt-4">{currentRecipe.pasos[currentStep]}</p>
+        <div className={`p-8 rounded-lg shadow-lg max-w-2xl w-full text-center ${isDarkMode ? 'bg-gray-800' : 'bg-white'}`}>
+          <h2 className={`text-4xl font-bold mb-4 ${isDarkMode ? 'text-blue-400' : 'text-blue-800'}`}>{currentRecipe.titulo}</h2>
+          <p className={`text-lg ${isDarkMode ? 'text-gray-300' : 'text-gray-600'}`}>Paso {currentStep + 1} de {currentRecipe.pasos.length}</p>
+          <p className={`text-2xl mt-4 ${isDarkMode ? 'text-white' : 'text-gray-800'}`}>{currentRecipe.pasos[currentStep]}</p>
           <div className="mt-8 flex justify-center gap-4">
             <button
               className="px-4 py-2 bg-gray-600 rounded-full text-white hover:bg-gray-500 transition"

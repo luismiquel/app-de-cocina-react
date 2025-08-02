@@ -389,6 +389,9 @@ const App = () => {
     }
   ];
 
+  // Colores para las tarjetas
+  const cardColors = ['bg-purple-600', 'bg-blue-600', 'bg-green-600', 'bg-red-600', 'bg-yellow-600', 'bg-indigo-600', 'bg-pink-600', 'bg-teal-600', 'bg-cyan-600', 'bg-orange-600'];
+
   // Referencia para la instancia de reconocimiento de voz.
   const [recognition, setRecognition] = useState(null);
 
@@ -546,13 +549,13 @@ const App = () => {
             {filteredRecipes.map((recipe, index) => (
               <div
                 key={index}
-                className="bg-gray-800 p-6 rounded-lg shadow-lg cursor-pointer hover:bg-gray-700 transition"
+                className={`p-6 rounded-lg shadow-lg cursor-pointer hover:scale-105 transition transform ${cardColors[index % cardColors.length]} text-white`}
                 onClick={() => startCookingMode(recipe)}
               >
-                <h2 className="text-2xl font-bold text-blue-400">{recipe.titulo}</h2>
-                <p className="mt-2">{recipe.ingredientes.join(', ')}</p>
+                <h2 className="text-2xl font-bold text-white">{recipe.titulo}</h2>
+                <p className="mt-2 text-white">{recipe.ingredientes.join(', ')}</p>
                 <button
-                  className="mt-4 px-4 py-2 bg-green-600 rounded-full text-white font-semibold hover:bg-green-700 transition"
+                  className="mt-4 px-4 py-2 bg-white bg-opacity-30 rounded-full text-white font-semibold hover:bg-opacity-50 transition"
                   onClick={(e) => { e.stopPropagation(); startCookingMode(recipe); }}
                 >
                   Modo Cocina

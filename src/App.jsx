@@ -11,7 +11,7 @@ const App = () => {
   const [isDarkMode, setIsDarkMode] = useState(false);
 
   // Array de objetos con los datos de las recetas.
-  // Ahora contiene más de 40 recetas tradicionales españolas.
+  // Contiene más de 40 recetas tradicionales españolas.
   const recipes = [
     // --- APERITIVOS ---
     {
@@ -489,11 +489,19 @@ const App = () => {
   });
 
   return (
-    <div className="bg-gray-900 text-white min-h-screen p-8 flex flex-col items-center">
-      <h1 className="text-5xl font-extrabold mb-8 text-center text-amber-500">
+    <div className={`min-h-screen p-8 flex flex-col items-center ${isDarkMode ? 'bg-gray-900 text-white' : 'bg-gray-100 text-gray-900'}`}>
+      <h1 className={`text-5xl font-extrabold mb-8 text-center ${isDarkMode ? 'text-amber-500' : 'text-amber-800'}`}>
         Mi Recetario
       </h1>
       
+      {/* Botón para alternar el modo oscuro */}
+      <button 
+        onClick={() => setIsDarkMode(!isDarkMode)}
+        className={`px-4 py-2 mb-8 rounded-full font-semibold transition ${isDarkMode ? 'bg-gray-700 text-white' : 'bg-gray-300 text-gray-800'}`}
+      >
+        {isDarkMode ? 'Modo Claro' : 'Modo Oscuro'}
+      </button>
+
       {/* Condición para mostrar la lista de recetas o el modo cocina. */}
       {!currentRecipe ? (
         <>
@@ -503,7 +511,7 @@ const App = () => {
             placeholder="Buscar recetas..."
             value={searchTerm}
             onChange={(e) => setSearchTerm(e.target.value)}
-            className="w-full max-w-xl p-3 mb-6 rounded-md bg-gray-700 text-white border-none focus:outline-none focus:ring-2 focus:ring-amber-500"
+            className={`w-full max-w-xl p-3 mb-6 rounded-md ${isDarkMode ? 'bg-gray-700 text-white' : 'bg-white text-gray-900'} border-none focus:outline-none focus:ring-2 focus:ring-amber-500`}
           />
 
           {/* Navegación por pestañas */}

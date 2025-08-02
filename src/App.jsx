@@ -11,7 +11,7 @@ const App = () => {
   const [isDarkMode, setIsDarkMode] = useState(false);
 
   // Array de objetos con los datos de las recetas.
-  // Ahora contiene más de 40 recetas tradicionales españolas.
+  // Contiene más de 40 recetas tradicionales españolas.
   const recipes = [
     // --- APERITIVOS ---
     {

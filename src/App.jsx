@@ -8,7 +8,7 @@ const App = () => {
   const [currentCategory, setCurrentCategory] = useState("Aperitivos");
 
   // Array de objetos con los datos de las recetas.
-  // Contiene más de 40 recetas tradicionales españolas.
+  // Ahora contiene más de 40 recetas tradicionales españolas.
   const recipes = [
     // --- APERITIVOS ---
     {

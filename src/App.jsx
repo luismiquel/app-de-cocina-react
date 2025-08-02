@@ -11,7 +11,7 @@ const App = () => {
   const [isDarkMode, setIsDarkMode] = useState(false);
 
   // Array de objetos con los datos de las recetas.
-  // Contiene más de 40 recetas tradicionales españolas.
+  // Ahora contiene más de 40 recetas tradicionales españolas.
   const recipes = [
     // --- APERITIVOS ---
     {
@@ -545,7 +545,7 @@ const App = () => {
             </button>
           </div>
 
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 max-w-4xl w-full">
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6 max-w-7xl w-full">
             {filteredRecipes.map((recipe, index) => (
               <div
                 key={index}

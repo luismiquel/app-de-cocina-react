@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 
 // Componente principal de la aplicación.
+// Aquí se gestiona el estado de la receta actual y los pasos.
 const App = () => {
   // Estado para controlar la receta que se está viendo y el paso actual.
   const [currentRecipe, setCurrentRecipe] = useState(null);

@@ -6,6 +6,9 @@ const App = () => {
   const [currentRecipe, setCurrentRecipe] = useState(null);
   const [currentStep, setCurrentStep] = useState(0);
   const [currentCategory, setCurrentCategory] = useState("Aperitivos");
+  // Nuevo estado para la barra de búsqueda y el modo oscuro.
+  const [searchTerm, setSearchTerm] = useState('');
+  const [isDarkMode, setIsDarkMode] = useState(false);
 
   // Array de objetos con los datos de las recetas.
   // Ahora contiene más de 40 recetas tradicionales españolas.
@@ -479,7 +482,11 @@ const App = () => {
   }, [currentStep, currentRecipe]);
 
   // Filtra las recetas por la categoría actual.
-  const filteredRecipes = recipes.filter(recipe => recipe.categoria === currentCategory);
+  const filteredRecipes = recipes.filter(recipe => {
+    const isCategoryMatch = recipe.categoria === currentCategory;
+    const isSearchMatch = recipe.titulo.toLowerCase().includes(searchTerm.toLowerCase());
+    return isCategoryMatch && isSearchMatch;
+  });
 
   return (
     <div className="bg-gray-900 text-white min-h-screen p-8 flex flex-col items-center">
@@ -490,6 +497,15 @@ const App = () => {
       {/* Condición para mostrar la lista de recetas o el modo cocina. */}
       {!currentRecipe ? (
         <>
+          {/* Barra de búsqueda */}
+          <input
+            type="text"
+            placeholder="Buscar recetas..."
+            value={searchTerm}
+            onChange={(e) => setSearchTerm(e.target.value)}
+            className="w-full max-w-xl p-3 mb-6 rounded-md bg-gray-700 text-white border-none focus:outline-none focus:ring-2 focus:ring-amber-500"
+          />
+
           {/* Navegación por pestañas */}
           <div className="flex space-x-4 mb-8">
             <button

@@ -17,6 +17,7 @@ const App = () => {
     {
       titulo: "Patatas bravas",
       categoria: "Aperitivos",
+      imagen: "https://placehold.co/400x300/FCA5A5/ffffff?text=Patatas+bravas",
       ingredientes: ["Patatas", "Aceite de oliva", "Mayonesa", "Tomate frito", "Pimentón picante"],
       pasos: [
         "Para comenzar, pela las patatas y córtalas en cubos. Lávalas bien para quitarles el almidón y sécalas con papel de cocina.",
@@ -29,6 +30,7 @@ const App = () => {
     {
       titulo: "Croquetas de jamón",
       categoria: "Aperitivos",
+      imagen: "https://placehold.co/400x300/FDBA74/ffffff?text=Croquetas+de+jamón",
       ingredientes: ["Harina de trigo", "Mantequilla", "Leche", "Jamón serrano", "Nuez moscada", "Huevo", "Pan rallado", "Aceite para freír"],
       pasos: [
         "Prepara una bechamel densa con mantequilla, harina y leche. Añade el jamón picado y la nuez moscada.",
@@ -39,6 +41,7 @@ const App = () => {
     {
       titulo: "Gambas al ajillo",
       categoria: "Aperitivos",
+      imagen: "https://placehold.co/400x300/6EE7B7/ffffff?text=Gambas+al+ajillo",
       ingredientes: ["Gambas", "Aceite de oliva", "Ajo", "Guindilla", "Perejil"],
       pasos: [
         "Dora los ajos laminados y la guindilla en una cazuela de barro con aceite.",
@@ -48,6 +51,7 @@ const App = () => {
     {
       titulo: "Tabla de embutidos y quesos",
       categoria: "Aperitivos",
+      imagen: "https://placehold.co/400x300/FCD34D/ffffff?text=Tabla+de+embutidos+y+quesos",
       ingredientes: ["Jamón ibérico", "Lomo", "Chorizo", "Salchichón", "Queso curado", "Queso de cabra"],
       pasos: [
         "El único paso es cortar en lonchas finas los embutidos y los quesos. Sirve con pan y picos."
@@ -56,6 +60,7 @@ const App = () => {
     {
       titulo: "Pulpo a la gallega",
       categoria: "Aperitivos",
+      imagen: "https://placehold.co/400x300/A78BFA/ffffff?text=Pulpo+a+la+gallega",
       ingredientes: ["Pulpo cocido", "Patatas", "Pimentón dulce", "Pimentón picante", "Sal gorda", "Aceite de oliva"],
       pasos: [
         "Corta el pulpo y cuece las patatas. Corta las patatas en rodajas y colócalas en un plato.",
@@ -65,6 +70,7 @@ const App = () => {
     {
       titulo: "Pimientos de Padrón",
       categoria: "Aperitivos",
+      imagen: "https://placehold.co/400x300/D9F99D/ffffff?text=Pimientos+de+Padrón",
       ingredientes: ["Pimientos de Padrón", "Aceite de oliva", "Sal gorda"],
       pasos: [
         "Fríe los pimientos en abundante aceite de oliva caliente. Sácalos con una espumadera.",
@@ -74,6 +80,7 @@ const App = () => {
     {
       titulo: "Berenjenas con miel",
       categoria: "Aperitivos",
+      imagen: "https://placehold.co/400x300/BFDBFE/ffffff?text=Berenjenas+con+miel",
       ingredientes: ["Berenjenas", "Harina de trigo", "Miel de caña", "Aceite para freír"],
       pasos: [
         "Corta las berenjenas en rodajas, déjalas en remojo con agua y sal. Sécalas y pásalas por harina.",
@@ -83,6 +90,7 @@ const App = () => {
     {
       titulo: "Champiñones al ajillo",
       categoria: "Aperitivos",
+      imagen: "https://placehold.co/400x300/FBCFE8/ffffff?text=Champiñones+al+ajillo",
       ingredientes: ["Champiñones", "Ajo", "Perejil", "Vino blanco", "Aceite de oliva"],
       pasos: [
         "Lava y corta los champiñones. Sofríe los ajos en una sartén con aceite. Añade los champiñones.",
@@ -92,6 +100,7 @@ const App = () => {
     {
       titulo: "Almejas a la marinera",
       categoria: "Aperitivos",
+      imagen: "https://placehold.co/400x300/E7E5E4/ffffff?text=Almejas+a+la+marinera",
       ingredientes: ["Almejas", "Cebolla", "Ajo", "Vino blanco", "Harina", "Caldo de pescado", "Perejil"],
       pasos: [
         "Sofríe la cebolla y el ajo. Añade la harina y el vino. Incorpora el caldo y las almejas.",
@@ -101,6 +110,7 @@ const App = () => {
     {
       titulo: "Calamares a la romana",
       categoria: "Aperitivos",
+      imagen: "https://placehold.co/400x300/818CF8/ffffff?text=Calamares+a+la+romana",
       ingredientes: ["Calamares", "Harina", "Huevo", "Aceite para freír", "Sal"],
       pasos: [
         "Limpia y corta los calamares en anillas. Sécalos, pásalos por harina y huevo batido.",
@@ -111,6 +121,7 @@ const App = () => {
     {
       titulo: "Gazpacho andaluz",
       categoria: "Primeros",
+      imagen: "https://placehold.co/400x300/FCA5A5/ffffff?text=Gazpacho+andaluz",
       ingredientes: ["Tomates maduros", "Pepino", "Pimiento verde", "Cebolla", "Ajo", "Pan duro", "Aceite de oliva", "Vinagre", "Sal"],
       pasos: [
         "Pica las verduras y ponlas en un recipiente. Añade el pan duro remojado, aceite, vinagre y sal.",
@@ -121,6 +132,7 @@ const App = () => {
     {
       titulo: "Salmorejo cordobés",
       categoria: "Primeros",
+      imagen: "https://placehold.co/400x300/FDBA74/ffffff?text=Salmorejo+cordobés",
       ingredientes: ["Tomates maduros", "Pan de telera", "Ajo", "Aceite de oliva virgen extra", "Sal", "Jamón serrano", "Huevo duro"],
       pasos: [
         "Tritura los tomates con el pan, el ajo y la sal. Añade poco a poco el aceite y emulsiona.",
@@ -130,6 +142,7 @@ const App = () => {
     {
       titulo: "Sopa de ajo",
       categoria: "Primeros",
+      imagen: "https://placehold.co/400x300/6EE7B7/ffffff?text=Sopa+de+ajo",
       ingredientes: ["Ajo", "Pan del día anterior", "Aceite de oliva", "Pimentón dulce", "Jamón serrano", "Huevo", "Caldo de pollo"],
       pasos: [
         "Dora los ajos laminados en aceite. Añade el pan y el pimentón.",
@@ -139,6 +152,7 @@ const App = () => {
     {
       titulo: "Paella de marisco",
       categoria: "Primeros",
+      imagen: "https://placehold.co/400x300/FCD34D/ffffff?text=Paella+de+marisco",
       ingredientes: ["Arroz bomba", "Caldo de pescado", "Gambas", "Mejillones", "Calamares", "Pimiento", "Ajo", "Tomate", "Azafrán"],
       pasos: [
         "Sofríe los mariscos y retíralos. En la misma paella, sofríe el pimiento, el ajo y el tomate.",
@@ -149,6 +163,7 @@ const App = () => {
     {
       titulo: "Cocido madrileño",
       categoria: "Primeros",
+      imagen: "https://placehold.co/400x300/A78BFA/ffffff?text=Cocido+madrileño",
       ingredientes: ["Garbanzos", "Morcillo de ternera", "Tocino", "Chorizo", "Morcilla", "Gallina", "Zanahoria", "Patatas", "Repollo"],
       pasos: [
         "Cuece los garbanzos, la carne y los huesos. Desgrasa el caldo. Incorpora las verduras.",
@@ -158,6 +173,7 @@ const App = () => {
     {
       titulo: "Fabada asturiana",
       categoria: "Primeros",
+      imagen: "https://placehold.co/400x300/D9F99D/ffffff?text=Fabada+asturiana",
       ingredientes: ["Fabes", "Chorizo asturiano", "Morcilla asturiana", "Lacón", "Panceta", "Ajo", "Cebolla", "Pimentón dulce"],
       pasos: [
         "Deja las fabes a remojo la noche anterior. En una olla, cocina las fabes con el chorizo, la morcilla, el lacón y la panceta.",
@@ -167,6 +183,7 @@ const App = () => {
     {
       titulo: "Sopa de cocido",
       categoria: "Primeros",
+      imagen: "https://placehold.co/400x300/BFDBFE/ffffff?text=Sopa+de+cocido",
       ingredientes: ["Caldo de cocido", "Fideos de cocido", "Garbanzos", "Carne de cocido"],
       pasos: [
         "Cuela el caldo del cocido y ponlo a hervir. Añade los fideos y cocina hasta que estén tiernos.",
@@ -176,6 +193,7 @@ const App = () => {
     {
       titulo: "Sopa de pescado y marisco",
       categoria: "Primeros",
+      imagen: "https://placehold.co/400x300/FBCFE8/ffffff?text=Sopa+de+pescado",
       ingredientes: ["Caldo de pescado", "Merluza", "Gambas", "Almejas", "Cebolla", "Ajo", "Pan frito"],
       pasos: [
         "Sofríe la cebolla y el ajo. Añade el pescado y el marisco. Vierte el caldo y cocina.",
@@ -185,6 +203,7 @@ const App = () => {
     {
       titulo: "Ensalada de tomate y ventresca",
       categoria: "Primeros",
+      imagen: "https://placehold.co/400x300/E7E5E4/ffffff?text=Ensalada+de+tomate",
       ingredientes: ["Tomates de temporada", "Ventresca de atún en aceite de oliva", "Aceitunas negras", "Cebolleta", "Aceite de oliva", "Sal"],
       pasos: [
         "Corta los tomates en rodajas y la cebolleta en juliana. Coloca todo en un plato.",
@@ -194,6 +213,7 @@ const App = () => {
     {
       titulo: "Crema de calabacín",
       categoria: "Primeros",
+      imagen: "https://placehold.co/400x300/818CF8/ffffff?text=Crema+de+calabacín",
       ingredientes: ["Calabacín", "Puerro", "Patata", "Caldo de verduras", "Nata líquida", "Pimienta negra", "Sal"],
       pasos: [
         "Sofríe el puerro y el calabacín. Añade la patata y el caldo de verduras. Cocina hasta que todo esté tierno.",
@@ -204,6 +224,7 @@ const App = () => {
     {
       titulo: "Cordero asado",
       categoria: "Segundos",
+      imagen: "https://placehold.co/400x300/FCA5A5/ffffff?text=Cordero+asado",
       ingredientes: ["Pierna de cordero", "Manteca de cerdo", "Agua", "Ajo", "Romero", "Tomillo", "Vino blanco", "Sal"],
       pasos: [
         "Unta la pierna de cordero con manteca, ajo y sal. Colócala en una bandeja de horno.",
@@ -214,6 +235,7 @@ const App = () => {
     {
       titulo: "Lubina a la espalda",
       categoria: "Segundos",
+      imagen: "https://placehold.co/400x300/FDBA74/ffffff?text=Lubina+a+la+espalda",
       ingredientes: ["Lubina", "Ajo", "Guindilla", "Vinagre de Jerez", "Aceite de oliva", "Sal"],
       pasos: [
         "Limpia la lubina y hazle unos cortes. Haz un sofrito con ajo y guindilla.",
@@ -223,6 +245,7 @@ const App = () => {
     {
       titulo: "Albóndigas en salsa de almendras",
       categoria: "Segundos",
+      imagen: "https://placehold.co/400x300/6EE7B7/ffffff?text=Albóndigas",
       ingredientes: ["Carne picada de ternera", "Pan rallado", "Leche", "Huevo", "Almendras", "Cebolla", "Ajo", "Vino blanco"],
       pasos: [
         "Prepara las albóndigas con la carne, pan rallado y huevo. Fríelas y resérvalas.",
@@ -232,6 +255,7 @@ const App = () => {
     {
       titulo: "Cochinillo asado",
       categoria: "Segundos",
+      imagen: "https://placehold.co/400x300/FCD34D/ffffff?text=Cochinillo+asado",
       ingredientes: ["Cochinillo", "Sal", "Agua", "Manteca de cerdo", "Patatas"],
       pasos: [
         "Frota el cochinillo con sal. Ponlo en una bandeja de horno con agua y hornea a 180°C.",
@@ -241,6 +265,7 @@ const App = () => {
     {
       titulo: "Merluza a la vasca",
       categoria: "Segundos",
+      imagen: "https://placehold.co/400x300/A78BFA/ffffff?text=Merluza+a+la+vasca",
       ingredientes: ["Merluza", "Almejas", "Gambas", "Guisantes", "Ajo", "Cebolla", "Vino blanco", "Caldo de pescado"],
       pasos: [
         "Sofríe el ajo y la cebolla. Añade las gambas y las almejas. Vierte el vino y el caldo.",
@@ -250,6 +275,7 @@ const App = () => {
     {
       titulo: "Conejo al ajillo",
       categoria: "Segundos",
+      imagen: "https://placehold.co/400x300/D9F99D/ffffff?text=Conejo+al+ajillo",
       ingredientes: ["Conejo", "Ajo", "Vino blanco", "Romero", "Patatas", "Aceite de oliva", "Sal"],
       pasos: [
         "Dora los trozos de conejo en aceite de oliva. Añade los ajos y el romero. Vierte el vino y deja que se evapore.",
@@ -259,6 +285,7 @@ const App = () => {
     {
       titulo: "Chuletas de cordero a la brasa",
       categoria: "Segundos",
+      imagen: "https://placehold.co/400x300/BFDBFE/ffffff?text=Chuletas+de+cordero",
       ingredientes: ["Chuletas de cordero", "Aceite de oliva", "Sal"],
       pasos: [
         "Sazona las chuletas con sal. Cocínalas a la brasa o en una plancha caliente.",
@@ -268,6 +295,7 @@ const App = () => {
     {
       titulo: "Bacalao a la vizcaína",
       categoria: "Segundos",
+      imagen: "https://placehold.co/400x300/FBCFE8/ffffff?text=Bacalao+a+la+vizcaína",
       ingredientes: ["Bacalao desalado", "Pimientos choriceros", "Cebolla", "Ajo", "Aceite de oliva"],
       pasos: [
         "Sofríe la cebolla y el ajo. Añade los pimientos choriceros picados.",
@@ -277,6 +305,7 @@ const App = () => {
     {
       titulo: "Pollo a la cerveza",
       categoria: "Segundos",
+      imagen: "https://placehold.co/400x300/E7E5E4/ffffff?text=Pollo+a+la+cerveza",
       ingredientes: ["Pollo en trozos", "Cebolla", "Ajo", "Pimiento", "Cerveza", "Caldo de pollo", "Harina"],
       pasos: [
         "Salpimenta el pollo y dóralo en aceite. Retira el pollo. Sofríe la cebolla, el ajo y el pimiento.",
@@ -286,6 +315,7 @@ const App = () => {
     {
       titulo: "Sepia a la plancha",
       categoria: "Segundos",
+      imagen: "https://placehold.co/400x300/818CF8/ffffff?text=Sepia+a+la+plancha",
       ingredientes: ["Sepia", "Ajo", "Perejil", "Aceite de oliva", "Sal"],
       pasos: [
         "Limpia la sepia y córtala. Dórala en una plancha muy caliente. Añade sal.",
@@ -296,6 +326,7 @@ const App = () => {
     {
       titulo: "Arroz con leche",
       categoria: "Postres",
+      imagen: "https://placehold.co/400x300/FCA5A5/ffffff?text=Arroz+con+leche",
       ingredientes: ["Arroz", "Leche entera", "Azúcar", "Cáscara de limón", "Canela en rama", "Canela en polvo"],
       pasos: [
         "En una olla, cocina el arroz con la leche, la cáscara de limón y la canela en rama a fuego lento. Remueve constantemente.",
@@ -306,6 +337,7 @@ const App = () => {
     {
       titulo: "Natillas caseras",
       categoria: "Postres",
+      imagen: "https://placehold.co/400x300/FDBA74/ffffff?text=Natillas+caseras",
       ingredientes: ["Leche entera", "Yemas de huevo", "Azúcar", "Maicena", "Cáscara de limón", "Galletas tipo María"],
       pasos: [
         "Hierve la leche con la cáscara de limón. Aparte, mezcla las yemas con el azúcar y la maicena.",
@@ -316,6 +348,7 @@ const App = () => {
     {
       titulo: "Tarta de Santiago",
       categoria: "Postres",
+      imagen: "https://placehold.co/400x300/6EE7B7/ffffff?text=Tarta+de+Santiago",
       ingredientes: ["Almendras molidas", "Azúcar", "Huevos", "Ralladura de limón", "Canela", "Azúcar glas"],
       pasos: [
         "Bate los huevos con el azúcar. Añade las almendras, la ralladura de limón y la canela. Mezcla bien.",
@@ -326,6 +359,7 @@ const App = () => {
     {
       titulo: "Crema catalana",
       categoria: "Postres",
+      imagen: "https://placehold.co/400x300/FCD34D/ffffff?text=Crema+catalana",
       ingredientes: ["Leche entera", "Yemas de huevo", "Azúcar", "Maicena", "Cáscara de limón", "Canela en rama"],
       pasos: [
         "Mezcla las yemas con el azúcar y la maicena. Hierve la leche con la canela y la cáscara de limón. Cuela.",
@@ -336,6 +370,7 @@ const App = () => {
     {
       titulo: "Flan de huevo",
       categoria: "Postres",
+      imagen: "https://placehold.co/400x300/A78BFA/ffffff?text=Flan+de+huevo",
       ingredientes: ["Huevos", "Leche entera", "Azúcar", "Caramelo líquido"],
       pasos: [
         "Haz un caramelo con azúcar y agua. Vierte en el molde. Bate los huevos, la leche y el azúcar. Mezcla.",
@@ -346,6 +381,7 @@ const App = () => {
     {
       titulo: "Leche frita",
       categoria: "Postres",
+      imagen: "https://placehold.co/400x300/D9F99D/ffffff?text=Leche+frita",
       ingredientes: ["Leche", "Azúcar", "Harina de maíz", "Limón", "Canela en rama", "Huevo", "Pan rallado"],
       pasos: [
         "Prepara una crema espesa con la leche, el azúcar, la maicena y el limón. Vierte en un molde y deja enfriar.",
@@ -356,6 +392,7 @@ const App = () => {
     {
       titulo: "Torrijas",
       categoria: "Postres",
+      imagen: "https://placehold.co/400x300/BFDBFE/ffffff?text=Torrijas",
       ingredientes: ["Pan duro", "Leche", "Azúcar", "Canela en rama", "Cáscara de limón", "Huevo", "Aceite para freír"],
       pasos: [
         "Hierve la leche con el azúcar, la canela y la cáscara de limón. Cuela y deja enfriar. Empapa el pan en la leche.",
@@ -365,6 +402,7 @@ const App = () => {
     {
       titulo: "Tarta de queso",
       categoria: "Postres",
+      imagen: "https://placehold.co/400x300/FBCFE8/ffffff?text=Tarta+de+queso",
       ingredientes: ["Galletas", "Mantequilla", "Queso crema", "Nata para montar", "Azúcar", "Huevos"],
       pasos: [
         "Tritura las galletas y mézclalas con la mantequilla derretida para la base. Hornea a 180°C por 10 minutos.",
@@ -374,6 +412,7 @@ const App = () => {
     {
       titulo: "Fresas con nata",
       categoria: "Postres",
+      imagen: "https://placehold.co/400x300/E7E5E4/ffffff?text=Fresas+con+nata",
       ingredientes: ["Fresas", "Nata para montar", "Azúcar"],
       pasos: [
         "Lava y corta las fresas. Monta la nata con el azúcar. Mezcla ambos ingredientes. Sirve."
@@ -382,6 +421,7 @@ const App = () => {
     {
       titulo: "Crema de membrillo con queso",
       categoria: "Postres",
+      imagen: "https://placehold.co/400x300/818CF8/ffffff?text=Crema+de+membrillo",
       ingredientes: ["Dulce de membrillo", "Queso fresco de Burgos", "Nueces"],
       pasos: [
         "Corta el membrillo y el queso fresco en cubos. Sírvelos en un plato con las nueces picadas."
